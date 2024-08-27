@@ -230,7 +230,7 @@ seventhEntryTabFive_4 = tk.Entry(tab1, state='disabled', textvariable=IntVar(tab
 seventhEntryTabFive_4.place(x=570,y=263, width=50)
 
 
-b2=Button(tab1, text='Generate datasets', command=smitosdf,bg="green",font=("Helvetica", 10),anchor=W, justify=LEFT)
+b2=Button(tab1, text='RUN', command=smitosdf,bg="green",font=("Helvetica", 10),anchor=W, justify=LEFT)
 b2.place(x=310,y=300)
 
 tab_parent.pack(expand=1, fill='both')
