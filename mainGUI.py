@@ -64,6 +64,7 @@ def smitosdf():
     df['CanSmi']=df.apply(lambda x:smitosmi(x.SMILES), axis=1)
     if len(df['CanSmi'].unique().tolist())<len(df['SMILES'].tolist()):
        print("Duplicate molecules were found")
+       messagebox.showinfo('Warning', 'Duplicate structures are present')
     else:
        print("No duplicate molecule was found")
     ls3=list(set(df['CanSmi']))
