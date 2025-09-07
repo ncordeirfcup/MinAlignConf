@@ -15,5 +15,5 @@ The geometrical optimization of structures is done with UFF (Universal force fie
 The alignment and conformer generation are done with Rdkit. The aligned conformations and multiple conformations are also saved automatically.
 
 
-##Citation:
+## Citation:
 Banerjee, T., Mitra, S., Sar, S., Halder, A. K., Panda, P., Ghosh, N. Structural insights into molecular and cellular level FXR binding potentials of GW4064 and LY2562175 hybrids by multi in silico modelling analyses. Journal of Molecular Modeling. 2025, 31, 119. https://doi.org/10.1007/s00894-025-06336-5
